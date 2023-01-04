@@ -4,8 +4,10 @@
     font-size: 72px;
     line-height: 1.055;
 }
-.place__title{
-    font-size: 2.625rem;
+@media (max-width:650px){
+    .place__title{
+        font-size: 42px;
+    }
 }
 @media  (max-width:320px){
     .place__title{
