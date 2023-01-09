@@ -1,14 +1,19 @@
 .intro{
     display: flex;
     flex-direction: column;
+    align-content: space-between;
     max-width:720px;
-    width:calc(100% - 148px * 2);
-    margin: 92px 148px 0 148px;
 }
 @media (min-width:1280px){
     .intro{
-        max-width: 984px;
-        margin: auto;
+        max-width: 690px;
+        margin: 92px auto 92px 148px;
+    }
+}
+@media (min-width:1025px) and (max-width:1279px) {
+    .intro{
+        width:calc(100% - 48px * 2);
+        margin: 92px auto 92px 148px;
     }
 }
 @media  (max-width:1024px){
