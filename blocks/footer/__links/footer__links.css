@@ -3,21 +3,13 @@
     flex-direction: row;
     align-items: center;
 }
-@media (max-width:650px){
-    .footer__links{
-        display: flex;
-    }
-}
 @media (max-width:500px){
     .footer__links{
-        display: flex;
         flex-direction: column;
     }
 }
 @media  (max-width:320px){
     .footer__links{
-        display: flex;
-        flex-direction: column;
         font-style: normal;
         font-weight: 400;
         font-size: 24px;

@@ -2,24 +2,15 @@
     object-fit: cover;
     width: 100%;
 }
-@media  (max-width:1024px){
-    .place__image {
-        object-fit: cover;
-        width: 100%;
-    }
-}
+
 @media  (max-width:768px){
     .place__image {
-        object-fit: cover;
-        width: 100%;
         max-width: 340px;
     }
 }
 @media  (max-width:320px){
     .place__image {
-        object-fit: cover;
         max-width: 320px;
-        width: 100%;
         margin-bottom: 32px;
     }
 }

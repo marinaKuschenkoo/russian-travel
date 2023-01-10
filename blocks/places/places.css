@@ -8,13 +8,11 @@
     }
 }
 @media  (max-width:1024px){
-.places {
-    width:calc(100% - 48px * 2);
-    max-width: 720px;
-    max-width: 928px;
-    margin: 0 auto;
-}
-}
+    .places {
+        width:calc(100% - 48px * 2);
+        max-width: 928px;
+        }
+    }
 @media  (max-width:768px){
     .places {
         width:calc(100% - 24px * 2);
@@ -24,13 +22,10 @@
 @media (max-width:650px){
     .places {
         width:100%;
-        margin: 0 auto;
     }
 }
 @media  (max-width:320px){
     .places {
-        width:100%;
         max-width: 320px;
-        margin: 0 auto;
     }
 }
