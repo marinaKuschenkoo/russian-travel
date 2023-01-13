@@ -1,20 +1,13 @@
 .footer__copyright {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1.125;
-    }
-@media  (max-width:1024px){
-    .footer__copyright {
         font-size: 14px;
         line-height: 1.143;
     }
-}
 @media  (max-width:320px){
     .footer__copyright {
+        margin-top: 0;
         margin-bottom: 24px;
-        font-size: 14px;
         line-height: 1;
     }
 }

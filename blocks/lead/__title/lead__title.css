@@ -9,14 +9,13 @@
 }
 @media (max-width:650px){
     .lead__title{
-        width: calc(100% - 16px*2);
-        max-width: 288px;
-        font-size: 40px;
-        line-height: 1.1;
+        width: calc(100% - 24px*2);
     }
 }
-@media  (max-width:320px){
+@media (max-width:650px){
     .lead__title{
+        width: calc(100% - 16px*2);
+        max-width: 288px;
         font-size: 40px;
         line-height: 1.1;
     }
