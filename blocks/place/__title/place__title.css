@@ -4,6 +4,7 @@
     font-size: 72px;
     line-height: 1.055;
     margin: 0;
+    max-width: 100%;
 }
 @media (max-width:768px){
     .place__title{
